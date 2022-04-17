@@ -11,6 +11,7 @@
 html{
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /*   ==================================================================header part */
 .header_top{
@@ -222,3 +223,93 @@ html{
     width: 100%;
 }
 
+.main_section{
+    background: url(../img/main_section.jpg);
+    width: 100%;
+    height: 500px;
+    padding-top: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_section h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #403E3B;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+.main_section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #645C55;
+}
+
+.main_bottom{
+       padding: 50px 0 0 0;
+}
+.main_bottom h1{
+    font-size: 39px;
+    font-weight: 400;
+    color: #1B1A1A;
+}
+.main_bottom p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #645C55;
+}
+.main_bottom .main_b-blok{
+    position: relative;
+    width: 100%;
+    height: 426px;
+
+}
+.main_bottom .main_b-blok img{
+    width: 100%;
+    height: 100%;
+}
+.main_bottom .main_b-blok .main_b-blok-p .main_b-blok-pt  .main-pr{
+    font-size: 14px;
+    font-weight: 400;
+    color: #645C55;
+    margin-bottom: 0px;
+}
+.main_bottom .main_b-blok .main_b-blok-p .main_b-blok-pt p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #403E3B;
+}
+.main_bottom .main_b-blok .main_b-blok-p button{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    background: #1B1A1A;
+    border-radius: 14px;
+    padding: 9px 20px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.main_bottom .main_b-blok .main_b-blok-p{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: -300px;
+    width: 100%;
+    height: 100%;
+    transition: 200ms;
+    opacity: 0;
+    overflow-x: hidden;
+
+}
+.main_bottom .main_b-blok:hover .main_b-blok-p{
+    opacity: 1;
+    left: 0;
+
+
+    
+}
