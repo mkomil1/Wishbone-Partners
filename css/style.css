@@ -245,12 +245,16 @@ html{
 }
 
 .main_bottom{
-       padding: 50px 0 0 0;
+       padding: 50px 0 50px 0;
+       background-color: #F7F7F7;
+       
+
 }
 .main_bottom h1{
     font-size: 39px;
     font-weight: 400;
     color: #1B1A1A;
+    margin-top: 25px;
 }
 .main_bottom p{
     font-size: 24px;
@@ -313,3 +317,39 @@ html{
     bottom: 0;
 
 }
+.main_bottom .m-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1A1A;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.futer_top{
+    padding: 60px 0;
+}
+.futer_top h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #403E3B;
+
+}
+
+.futer_top p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #645C55;
+}
+
+.futer_top a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1A1A;
+    letter-spacing: 0.4px;
+    margin-left: 20px;
+}
+.futer_top a:hover{
+    text-decoration: none;
+}
+
