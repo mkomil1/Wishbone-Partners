@@ -21,6 +21,7 @@ html{
     font-size: 15px;
     font-weight: 500;
     color: #1B1A1A;
+    margin-right: 18px;
 }
 
 .header_top .navbar .we{
@@ -327,7 +328,7 @@ html{
 }
 
 .futer_top{
-    padding: 60px 0;
+    padding: 60px 0 50px 0;
 }
 .futer_top h2{
     font-size: 32px;
@@ -353,3 +354,81 @@ html{
     text-decoration: none;
 }
 
+.futer_top .futer-blok{
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+    margin-bottom: 40px;
+}
+
+.futer_top .futer-blok h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1B1A1A;
+}
+
+.futer_top .futer-blok h5 strong{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1B1A1A;
+}
+
+.futer_section {
+    width: 100%;
+    padding: 75px 0px;
+    background-color: #CEC4BC;
+    
+    
+}
+
+.futer_section h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #645C55; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+
+.futer_section h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #1B1A1A ;
+    line-height: 42px;
+}
+
+.futer_section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1A1A;
+    letter-spacing: 0.4px;
+    margin-bottom: 0px;
+}
+
+.futer_bottom{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.futer_bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #645C55;
+    margin: 10px 0 0 0px;
+    line-height: 20px;
+}
+
+
+.futer_bottom .futer_bottom-icon {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: end;
+    
+}
+.futer_bottom .futer_bottom-icon .fa {
+    display: block;
+    font-size: 22px;
+}
